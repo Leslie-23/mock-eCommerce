@@ -29,3 +29,5 @@ Stay connected with Wig Emporium for the latest news, promotions, and styling ti
 Thank you for choosing Wig Emporium for all your wig needs! We look forward to helping you find your perfect style.
 
 [Shop Now](#)
+
+forgot to add the necessary buttons for ordering. Soon to come in a git update
