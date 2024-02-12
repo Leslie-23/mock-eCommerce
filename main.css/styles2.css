@@ -1,0 +1,34 @@
+body{
+  /*   background-color: black; */
+  /*   color: rgb(245, 222, 179);
+    background-image: linear-gradient(black, rgba(245, 222, 179, 0.712));
+    background-repeat: no-repeat; */
+   
+    border: 2px solid wheat;
+    background-color: #333;
+    color: white;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+p{
+    font-size: 2rem;
+}
+.payMethod{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    
+}
+select , button{
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid;
+}

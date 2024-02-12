@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+   /*  background-image: linear-gradient(to left, wheat,black); */
+   background-color: black;
+}
+
+nav{
+    background-color: black;
+    color: wheat;
+    padding: 1.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+/* .gmailLink{
+    text-decoration: none;
+    color: wheat;
+}
+.gmailLink:visited{
+    color: wheat;
+}
+.gmailLink:focus{
+    color: wheat;
+} */
+.welcomeLine{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: wheat;
+    color: black;
+    padding: 0.33rem;
+}
+
+.hairName{
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.price{
+    font-size: 1rem;
+    color: white;
+    font-style: italic;
+    
+}
+section{
+    border: 2px solid wheat;
+    background-color: #333;
+    color: white;
+    padding: 0.2rem;
+    margin: 0.3rem;
+}
+
+span{
+    text-decoration: line-through;
+}
+.two-column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 1;
+    
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media(max-width: 768px){
+    .two-column{
+        flex-direction: column;
+    }
+}
+.checkoutBtn{
+    position:fixed;
+    font-size: 20px;
+    padding: 0.2rem;
+    border-radius: 20px;
+    background-color: white;
+}
+.top {
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footText{
+    color: white;
+    text-align: center;
+}
+.footNum{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../main.css/styles2.css" />
+    <script src="../main.js/checkout.js"></script>
+    <title>Checkout Details</title>
+  </head>
+  <body>
+    <div id="checkout-details">
+      <h1>Checkout Details</h1>
+      <p>Items in your cart:</p>
+      <ul id="cartItems"></ul>
+      <p class="payMethod">Select a payment method:</p>
+      <select id="paymentMethod">
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+      </select>
+      <select id="MoMo">
+        <option value="AirtelTigo">AirtelTigo</option>
+        <option value="MTN">MTN</option>
+        <option value="Vodaphone">Vodaphone</option>
+        <option value="G-Money">G-Money</option>
+      </select>
+      <button onclick="processPayment()">Process Payment</button>
+    </div>
+  </body>
+</html>
