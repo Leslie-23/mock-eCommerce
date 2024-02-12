@@ -47,3 +47,5 @@ function updateCartCount(){
       alert(`Payment processed using ${paymentMethod}. Thank you for your purchase!`);
     } 
     */
+
+//FROM LINES 24 - 49 offers a different kind of functionality in line with what i had planned but as at writing this code JSX was not my strongest. Feel free to modify to your needs
